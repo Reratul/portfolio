@@ -1,3 +1,4 @@
+import About from "./components/About"
 import Landingpage from "./components/Landingpage"
 import Navbar from "./components/Navbar"
 
@@ -7,6 +8,7 @@ const App = () => {
     <div className="w-full h-screen bg-black">
       <Navbar />
       <Landingpage  />
+      <About />
     </div>
   )
 }

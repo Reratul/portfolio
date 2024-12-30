@@ -1,14 +1,10 @@
-
-
 const Landingpage = () => {
   return (
     <div
-      className="h-screen w-full bg-cover bg-center overflow-hidden"
-      style={{
-        backgroundImage: "url('/images/killua.gif')",
-      }}
+      className="h-screen w-full bg-cover bg-center overflow-hidden bg-black"
+      
     >
-      <div className="flex items-center justify-center h-full">
+      <div className="flex items-center justify-center h-full bg-black">
         <div className="text">
         <h1 className="text-[#ff98a2] text-6xl font-bold font-mono leading-none tracking-tight">
           We build Web Sites.
