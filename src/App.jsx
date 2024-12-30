@@ -1,13 +1,12 @@
 import About from "./components/About"
-import Landingpage from "./components/Landingpage"
+
 import Navbar from "./components/Navbar"
 
 
 const App = () => {
   return (
-    <div className="w-full h-screen bg-black">
+    <div className="w-full  bg-black">
       <Navbar />
-      <Landingpage  />
       <About />
     </div>
   )
